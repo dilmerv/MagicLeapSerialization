@@ -13,7 +13,7 @@ public class SerializerManager : MonoBehaviourSingleton<SerializerManager>
     public GameData LoadGameData()
     {
         GameData gameData = null;
-        string filePath = Path.Combine(Application.dataPath, gameDataFileName);
+        string filePath = Path.Combine(Application.persistentDataPath, gameDataFileName);
         if(!File.Exists(filePath))
         {
             gameData = mockUpGameData();
@@ -29,7 +29,7 @@ public class SerializerManager : MonoBehaviourSingleton<SerializerManager>
     public void SaveGameData(GameData gameData)
     {
         string dataAsJson = JsonUtility.ToJson (gameData);
-        string filePath = Path.Combine(Application.dataPath, gameDataFileName);
+        string filePath = Path.Combine(Application.persistentDataPath, gameDataFileName);
         File.WriteAllText (filePath, dataAsJson);
     }
 

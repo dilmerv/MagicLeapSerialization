@@ -1,0 +1,38 @@
+[
+ {
+  "dest": "bin/libil2cpp.so",
+  "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Native/libil2cpp.so"
+ },
+ {
+  "dest": "bin/AudioPluginMSASpatializer.so",
+  "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so"
+ },
+ {
+  "dest": "bin/UnityEngine.TestRunner.dll",
+  "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+ },
+ {
+  "dest": "bin/UnityMagicLeap.so",
+  "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so"
+ },
+ {
+  "dest": "bin/libml_camera_plugin.so",
+  "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so"
+ },
+ {
+  "dest": "bin/libml_mediaplayer_plugin.so",
+  "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so"
+ },
+ {
+  "dest": "bin/nunit.framework.dll",
+  "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+ },
+ {
+  "dest": "bin/Player.elf",
+  "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Player.elf"
+ },
+ {
+  "dest": "bin/libc++_shared.so",
+  "src": "/Users/dvalecillos/MagicLeap/mlsdk/v0.20.0/lumin/stl/libc++/lib/libc++_shared.so"
+ }
+]

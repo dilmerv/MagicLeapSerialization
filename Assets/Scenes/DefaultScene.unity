@@ -788,6 +788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializedData: {fileID: 323149538}
   serializerStatus: {fileID: 41836844}
+  _controllerConnectionHandler: {fileID: 1909896025}
   gameData:
     Player:
       Name: 
@@ -996,3 +997,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827468740}
   m_CullTransparentMesh: 0
+--- !u!114 &1909896025 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114260986497282878, guid: 4b13f92626657f949936c461c3c3182e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1539776127}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d97f3bfb1874341bd827a81a6bb64f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

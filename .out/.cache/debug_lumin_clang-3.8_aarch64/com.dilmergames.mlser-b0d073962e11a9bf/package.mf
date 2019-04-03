@@ -1,0 +1,269 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "a4dc5c50b9e5694f4dd6ad14f83cea24cfdf4096",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3077996,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "54b2e3fb4a074dfd1c68187a6420789eecf3c548",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 45803584,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/dvalecillos/Dropbox/DilmerGames/MagicLeap/Certs/initialdevelopment.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "f6718524f3c6c2afefb1b9d55ccdd2eb1efa5162",
+   "xfrm_path": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.mlser-b0d073962e11a9bf/libil2cpp.so-468bb3fec80afd5e",
+   "xfrm_size": 45804342
+  },
+  {
+   "compression": 8,
+   "hash": "6b3b1067e8eeb28457c572292a209cc931e93089",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 269360,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/dvalecillos/Dropbox/DilmerGames/MagicLeap/Certs/initialdevelopment.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "caaa03d0b25fce800a7ace89d964da49259616ca",
+   "xfrm_path": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.mlser-b0d073962e11a9bf/AudioPluginMSASpatializer.so-44c819928674d2f6",
+   "xfrm_size": 270118
+  },
+  {
+   "compression": 8,
+   "hash": "28d6da6e5a2c19b0f74d7f05ed7552fd91fd61af",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 100352,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "06995ecae530eca2b6f5337b27dbdfcb727599da",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 1495800,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/dvalecillos/Dropbox/DilmerGames/MagicLeap/Certs/initialdevelopment.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "f2d04c368818d5f5283dde5afa53c9f616cdbde8",
+   "xfrm_path": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.mlser-b0d073962e11a9bf/UnityMagicLeap.so-44c819928674d2f6",
+   "xfrm_size": 1496558
+  },
+  {
+   "compression": 8,
+   "hash": "e36553e9a3113280d39db515a350a0036cda878d",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/dvalecillos/Dropbox/DilmerGames/MagicLeap/Certs/initialdevelopment.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "a6b504b78b274a5c13a4c609aaa8324cb043d8c6",
+   "xfrm_path": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.mlser-b0d073962e11a9bf/libml_camera_plugin.so-44c819928674d2f6",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "0ee8bd5ed3f83c8d11c84a597fb375ec525b0642",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67624,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/dvalecillos/Dropbox/DilmerGames/MagicLeap/Certs/initialdevelopment.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "a26ba728a3830fecbd57c54776b63031d2676d4e",
+   "xfrm_path": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.mlser-b0d073962e11a9bf/libml_mediaplayer_plugin.so-44c819928674d2f6",
+   "xfrm_size": 68382
+  },
+  {
+   "compression": 8,
+   "hash": "984e4d2049ed5491b970ba15d1e8c8cadac0896e",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 339968,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "63c7ca62020949b1c87b1439f31b7a9719db98c1",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3652028,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "b809efbfd389928c3b8e21772c7487dadf33cdd2",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 580916,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "07a1a6072f5e1bb3a3f4905632232dc66e76c2d5",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 168,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "9f9d9fdfae69214ea57a2416e60a9fe924367caa",
+   "pkgpath": "Data/boot.config",
+   "size": 144,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "175ff563e3e750b247fbb759fea660a938f94556",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 42320,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "3fe78898f4149e3074abb727bdb5ec8863d31367",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 45892,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "26adcefd9f77b3228c3125f2ca486925b01e91c3",
+   "pkgpath": "Data/level0",
+   "size": 9164,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "f7fbe82f7d687a3622fe63232ebaf13f19d94002",
+   "pkgpath": "Data/resources.assets",
+   "size": 162664,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "f4ce785d29d24c54555cb4aa9fed0d8d2dee1fad",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 360480,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "dda73b14beb0fd0af7f6280075566824618cc9d3",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 523886,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "04cc1df96f405362c7e2c17402be5a6a246a9772",
+   "pkgpath": "bin/Player.elf",
+   "size": 19669992,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/dvalecillos/Dropbox/DilmerGames/MagicLeap/Certs/initialdevelopment.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "709b2d0c9728acb54fd364bf4c66e7dd9db76daf",
+   "xfrm_path": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.mlser-b0d073962e11a9bf/Player.elf-d89c578faff667ab",
+   "xfrm_size": 19670750
+  },
+  {
+   "compression": 8,
+   "hash": "4e4ba9200b1c88fbff4692845947b21961ed3f1f",
+   "pkgpath": "manifest.xml",
+   "size": 2253,
+   "src": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "8cf450b1139e8b2fd38fb13485db8585b936d020",
+     "developer_id": "eca8b656-2c36-47fb-abe6-42b4483b5048"
+    }
+   },
+   "xfrm_hash": "362353371e5da7468a1e22c921b92d13332fff8f",
+   "xfrm_path": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.mlser-b0d073962e11a9bf/manifest.xml-d89c578faff667ab",
+   "xfrm_size": 600
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/dvalecillos/MagicLeap/mlsdk/v0.20.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/dvalecillos/Dropbox/DilmerGames/MagicLeap/Certs/initialdevelopment.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "6f84d891843900877c3ed0c2a4ff1258f08f15a7",
+   "xfrm_path": "/Users/dvalecillos/Code/Personal/Games/MagicLeapSerialization/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.mlser-b0d073962e11a9bf/libc++_shared.so-5f40a2ae002f35b2",
+   "xfrm_size": 977590
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/dvalecillos/Dropbox/DilmerGames/MagicLeap/Certs/initialdevelopment.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "/Users/dvalecillos/Dropbox/DilmerGames/MagicLeap/Certs/initialdevelopment.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

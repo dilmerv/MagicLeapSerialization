@@ -15,7 +15,8 @@ public class TestSerializer : MonoBehaviour
     
     private const string DATA_NOT_LOADED = "Game Data could not be loaded...";
 
-    private ControllerConnectionHandler _controllerConnectionHandler;
+    [SerializeField, Tooltip("ControllerConnectionHandler reference.")]
+    private ControllerConnectionHandler _controllerConnectionHandler = null;
     
     [SerializeField]
     private GameData gameData = null;
@@ -29,9 +30,6 @@ public class TestSerializer : MonoBehaviour
         gameData = serializerManager.LoadGameData();
 
         PopulateUIGameData();
-
-        // get controller
-        _controllerConnectionHandler = GetComponent<ControllerConnectionHandler>();
         MLInput.OnTriggerDown += HandleOnTriggerDown;
     }
 
