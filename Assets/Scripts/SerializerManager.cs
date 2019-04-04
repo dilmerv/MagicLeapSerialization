@@ -2,8 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using DilmerGames.MagicLeap.Core;
+using MagicLeapSerialization.Assets.Scripts.Extensions;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class SerializerManager : MonoBehaviourSingleton<SerializerManager>
 {
@@ -35,13 +38,14 @@ public class SerializerManager : MonoBehaviourSingleton<SerializerManager>
 
     private GameData mockUpGameData()
     {
+        string[] randomIds = Guid.NewGuid().GetParts();
         GameData emptyGameData = new GameData();
-        emptyGameData.Player.Name = "Test User";
-        emptyGameData.Player.Email = "test@test.com";
-        emptyGameData.Player.Score = 100;
-        emptyGameData.Player.MinutesPlayed = 1;
-        emptyGameData.Levels[0].Number = 1;
-        emptyGameData.Levels[0].Name = "A cool level name";
+        emptyGameData.Player.Name = randomIds.First();
+        emptyGameData.Player.Email = $"{randomIds.First()}@{randomIds.Last()}.com";
+        emptyGameData.Player.Score = Random.Range(1, 100);
+        emptyGameData.Player.MinutesPlayed = Random.Range(1, 100);
+        emptyGameData.Levels[0].Number = Random.Range(1, 50);
+        emptyGameData.Levels[0].Name = $"Mock Level Name {randomIds.First()}";
         emptyGameData.Levels[0].StatusState =  Level.Status.Played;
         emptyGameData.Levels[0].DifficultyState =  Level.Difficulty.ExtraHard;
         return emptyGameData;

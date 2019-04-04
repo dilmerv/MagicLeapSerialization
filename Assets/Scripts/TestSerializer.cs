@@ -7,18 +7,18 @@ using UnityEngine.XR.MagicLeap;
 [RequireComponent(typeof(ControllerConnectionHandler))]
 public class TestSerializer : MonoBehaviour
 {
-    [SerializeField]
+    private const string DATA_NOT_LOADED = "Game Data could not be loaded...";
+
+    [SerializeField, Tooltip("Text to display results of serialization.")]
     private Text serializedData = null;
 
-    [SerializeField]
+    [SerializeField, Tooltip("Text for status of serialization.")]
     private Text serializerStatus = null;
-    
-    private const string DATA_NOT_LOADED = "Game Data could not be loaded...";
 
     [SerializeField, Tooltip("ControllerConnectionHandler reference.")]
     private ControllerConnectionHandler _controllerConnectionHandler = null;
     
-    [SerializeField]
+    [SerializeField, Tooltip("Don't set this manually, only for display purposes")]
     private GameData gameData = null;
 
     private SerializerManager serializerManager = null;
@@ -76,9 +76,8 @@ public class TestSerializer : MonoBehaviour
         MLInputController controller = _controllerConnectionHandler?.ConnectedController;
         if ((controller != null && controller.Id == controllerId) || isEditor)
         {
-            // add 100 to score / 1 min to time played then save serialized data
-            gameData.Player.Score += 100;
-            gameData.Player.MinutesPlayed += 1;
+            gameData.Player.Score += Random.Range(1, 100);
+            gameData.Player.MinutesPlayed += Random.Range(1, 100);
             try
             {
                 serializerManager.SaveGameData(gameData);
