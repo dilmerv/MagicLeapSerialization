@@ -36,6 +36,11 @@ public class SerializerManager : MonoBehaviourSingleton<SerializerManager>
         File.WriteAllText (filePath, dataAsJson);
     }
 
+    public void ClearGameData()
+    {
+
+    }
+
     private GameData mockUpGameData()
     {
         string[] randomIds = Guid.NewGuid().GetParts();
